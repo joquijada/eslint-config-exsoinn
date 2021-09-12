@@ -1,0 +1,43 @@
+{
+  "name": "@exsoinn/eslint-config-exsoinn",
+  "version": "1.0.0",
+  "description": "Common linting rules for Node.js apps",
+  "files": [
+    ".script/*"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "bin": {
+    "lint": "./.script/lint.sh",
+    "lint-fix": "./.script/lint-fix.sh"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-config-serverless-stack": "^0.69.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "release": "npx semantic-release@17.4.2 --no-ci",
+    "release:dry-run": "npx semantic-release@17.4.2 --no-ci --dry-run",
+    "test": "echo 'dummy test'"
+  },
+  "author": "Jose Quijada",
+  "license": "ISC",
+  "devDependencies": {
+    "@exsoinn/node-js-ci-cd": "^1.0.0",
+    "eslint": "^8.22.0",
+    "eslint-config-serverless-stack": "^0.69.7",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1"
+  }
+}
