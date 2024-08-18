@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['@stylistic/ts'],
   env: {
     node: true,
     commonjs: true,
@@ -51,7 +52,7 @@ module.exports = {
         'serverless-stack'
       ],
       rules: {
-        '@typescript-eslint/type-annotation-spacing': 'error',
+        '@stylistic/ts/type-annotation-spacing': 'error',
         'object-property-newline': [
           'error',
           {

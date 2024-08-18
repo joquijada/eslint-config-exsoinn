@@ -4,7 +4,7 @@
 
 ### Install
 ```shell
-npm install --save-dev --save-exact @exsoinn/eslint-config-exsoinn@latest eslint@8.22 eslint-config-standard@"<18" eslint-plugin-import@"<3" eslint-plugin-n@"<16" eslint-plugin-promise@"<7" eslint-config-serverless-stack@"<1"
+npm install --save-dev --save-exact @exsoinn/eslint-config-exsoinn@latest eslint@8.57.0 eslint-config-standard@"<18" eslint-plugin-import@"<3" eslint-plugin-n@"<16" eslint-plugin-promise@"<7" eslint-config-serverless-stack@"<1" typescript-eslint@"<9" @stylistic/eslint-plugin-ts
 ```
 
 
