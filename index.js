@@ -47,7 +47,7 @@ module.exports = {
       }
     },
     {
-      files: ['*.ts'],
+      files: ['*.ts', '*.tsx', '*.mts'],
       extends: [
         'serverless-stack'
       ],
