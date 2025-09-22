@@ -1,5 +1,17 @@
 # Changelog
 
+# [2.0.0](https://github.com/joquijada/eslint-config-exsoinn/compare/v1.1.1...v2.0.0) (2025-09-22)
+
+
+### Features
+
+* **lint:** upgrade to flat configs eslint 9.x ([d7a624a](https://github.com/joquijada/eslint-config-exsoinn/commit/d7a624acd26126f48aea74fbcebdc7b6121a1fcb))
+
+
+### BREAKING CHANGES
+
+* **lint:** CHANGE: Consumers need to upgrade accordingly, https://eslint.org/docs/latest/use/configure/migration-guide
+
 ## [1.1.1](https://github.com/joquijada/eslint-config-exsoinn/compare/v1.1.0...v1.1.1) (2025-09-22)
 
 
