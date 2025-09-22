@@ -1,12 +1,12 @@
 module.exports = {
-  plugins: ['@stylistic/ts'],
+  plugins: ['@stylistic'],
   env: {
     node: true,
     commonjs: true,
     es6: true
   },
   extends: [
-    'standard'
+    'neostandard'
   ],
   parserOptions: {
     ecmaVersion: 12
@@ -52,7 +52,7 @@ module.exports = {
         'serverless-stack'
       ],
       rules: {
-        '@stylistic/ts/type-annotation-spacing': 'error',
+        '@stylistic/type-annotation-spacing': 'error',
         'object-property-newline': [
           'error',
           {
