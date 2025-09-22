@@ -5,6 +5,7 @@
   "files": [
     ".script/*"
   ],
+  "type": "module",
   "repository": {
     "type": "git"
   },
@@ -14,12 +15,7 @@
   },
   "main": "index.js",
   "peerDependencies": {
-    "eslint": "^9",
-    "eslint-config-serverless-stack": "^0",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-n": "^15",
-    "eslint-plugin-promise": "^7",
-    "@typescript-eslint/type-utils": "^8"
+    "eslint": "^9"
   },
   "publishConfig": {
     "access": "public"
@@ -32,14 +28,11 @@
   "author": "Jose Quijada",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.36.0",
     "@exsoinn/node-js-ci-cd": "^1.0.0",
-    "@typescript-eslint/type-utils": "^8.44.0",
-    "@typescript-eslint/utils": "^8.44.0",
+    "@stylistic/eslint-plugin": "^5.4.0",
     "eslint": "^9.36.0",
-    "eslint-config-serverless-stack": "^0.69.7",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-n": "^15.2.5",
-    "eslint-plugin-promise": "^7.2.1",
+    "globals": "^16.4.0",
     "neostandard": "^0.12.2"
   }
 }

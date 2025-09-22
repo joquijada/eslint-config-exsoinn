@@ -1,66 +1,28 @@
-module.exports = {
-  plugins: ['@stylistic'],
-  env: {
-    node: true,
-    commonjs: true,
-    es6: true
-  },
-  extends: [
-    'neostandard'
-  ],
-  parserOptions: {
-    ecmaVersion: 12
-  },
-  rules: {
-    'space-before-function-paren': 'off',
-    'object-property-newline': [
-      'error',
-      {
-        allowMultiplePropertiesPerLine: false,
-        allowAllPropertiesOnSameLine: true // allow all JSON properties on same line (do not put a key per line when reformatting
-      }
-    ],
-    'object-curly-newline': [
-      'error',
-      {
-        multiline: false,
-        minProperties: 5,
-        consistent: true
-      }
-    ],
-    'array-bracket-newline': [
-      'error',
-      {
-        multiline: true
-      }
-    ],
-    'array-bracket-spacing': [
-      'error',
-      'always'
-    ]
-  },
-  overrides: [
+import neostandard, { plugins } from 'neostandard'
+
+export default function exSoInnStyleConfig(options = {}) {
+  const baseConfig = neostandard(options)
+
+  return [
+    ...baseConfig,
     {
-      files: ['*.test.js'],
+      plugins: {
+        stylistic: plugins['@stylistic']
+      },
       rules: {
-        'no-undef': 'off'
-      }
-    },
-    {
-      files: ['*.ts', '*.tsx', '*.mts'],
-      extends: [
-        'serverless-stack'
-      ],
-      rules: {
-        '@stylistic/type-annotation-spacing': 'error',
-        'object-property-newline': [
+        '@stylistic/space-before-function-paren': 'off',
+        '@stylistic/quote-props': [ 'error', 'as-needed' ],
+        '@stylistic/comma-dangle': [ 'error', 'never' ],
+        '@stylistic/object-curly-spacing': [ 'error', 'always' ],
+        '@stylistic/array-bracket-spacing': [ 'error', 'always' ],
+        '@stylistic/object-property-newline': [
           'error',
           {
             allowMultiplePropertiesPerLine: false,
             allowAllPropertiesOnSameLine: true // allow all JSON properties on same line (do not put a key per line when reformatting
           }
         ],
-        'object-curly-newline': [
+        '@stylistic/object-curly-newline': [
           'error',
           {
             multiline: false,
@@ -68,15 +30,11 @@ module.exports = {
             consistent: true
           }
         ],
-        'array-bracket-newline': [
+        '@stylistic/array-bracket-newline': [
           'error',
           {
             multiline: true
           }
-        ],
-        'array-bracket-spacing': [
-          'error',
-          'always'
         ]
       }
     }
