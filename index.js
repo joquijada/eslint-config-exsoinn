@@ -25,7 +25,7 @@ export default function exSoInnStyleConfig(options = {}) {
         '@stylistic/object-curly-newline': [
           'error',
           {
-            multiline: false,
+            multiline: true,
             minProperties: 3,
             consistent: true
           }
