@@ -1,7 +1,7 @@
-import neostandard, { plugins } from 'neostandard'
+import neostandard, { resolveIgnoresFromGitignore, plugins } from 'neostandard'
 
 export default function exSoInnStyleConfig(options = {}) {
-  const baseConfig = neostandard(options)
+  const baseConfig = neostandard({ ignores: resolveIgnoresFromGitignore(), ...options })
 
   return [
     ...baseConfig,
