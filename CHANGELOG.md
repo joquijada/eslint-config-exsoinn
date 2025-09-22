@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/joquijada/eslint-config-exsoinn/compare/v2.0.0...v2.0.1) (2025-09-22)
+
+
+### Bug Fixes
+
+* **lint:** ignore git ignored files when linting ([a000ae9](https://github.com/joquijada/eslint-config-exsoinn/commit/a000ae9e71478543b4587ebde2deefbdaa61394c))
+
 # [2.0.0](https://github.com/joquijada/eslint-config-exsoinn/compare/v1.1.1...v2.0.0) (2025-09-22)
 
 
