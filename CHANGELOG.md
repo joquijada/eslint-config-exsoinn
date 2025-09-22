@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.4](https://github.com/joquijada/eslint-config-exsoinn/compare/v2.0.3...v2.0.4) (2025-09-22)
+
+
+### Bug Fixes
+
+* **lint:** enforce new line in object curly on 3 or more props ([dc56ad6](https://github.com/joquijada/eslint-config-exsoinn/commit/dc56ad6ff6449bc4da83637938469dc4243f9833))
+
 ## [2.0.3](https://github.com/joquijada/eslint-config-exsoinn/compare/v2.0.2...v2.0.3) (2025-09-22)
 
 
