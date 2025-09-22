@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/joquijada/eslint-config-exsoinn/compare/v1.1.0...v1.1.1) (2025-09-22)
+
+
+### Bug Fixes
+
+* **deps:** replace standard with neostandard, update peer deps ([221339b](https://github.com/joquijada/eslint-config-exsoinn/commit/221339b636cfb669ccc5a75f201458ad77c6ad0d))
+
 # [1.1.0](https://github.com/joquijada/eslint-config-exsoinn/compare/v1.0.1...v1.1.0) (2025-09-22)
 
 
