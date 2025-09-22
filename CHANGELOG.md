@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.1.0](https://github.com/joquijada/eslint-config-exsoinn/compare/v1.0.1...v1.1.0) (2025-09-22)
+
+
+### Features
+
+* **eslint:** include more TS file extensions, increase eslint min req dep ([e2f2217](https://github.com/joquijada/eslint-config-exsoinn/commit/e2f2217015b8ad5802ae2ca72c5b7a30958c8675))
+
 ## [1.0.1](https://github.com/joquijada/eslint-config-exsoinn/compare/v1.0.0...v1.0.1) (2024-08-18)
 
 
