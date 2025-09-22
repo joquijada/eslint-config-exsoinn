@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/joquijada/eslint-config-exsoinn/compare/v2.0.2...v2.0.3) (2025-09-22)
+
+
+### Bug Fixes
+
+* **lint:** correct enforce same line prop limit config ([ce04fb5](https://github.com/joquijada/eslint-config-exsoinn/commit/ce04fb5500fbe9348de0e700098172820bd19544))
+
 ## [2.0.2](https://github.com/joquijada/eslint-config-exsoinn/compare/v2.0.1...v2.0.2) (2025-09-22)
 
 

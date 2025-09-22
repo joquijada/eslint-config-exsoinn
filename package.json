@@ -1,6 +1,6 @@
 {
   "name": "@exsoinn/eslint-config-exsoinn",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Common linting rules for Node.js apps",
   "files": [
     ".script/*"
