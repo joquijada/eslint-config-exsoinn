@@ -1,7 +1,7 @@
 import neostandard, { resolveIgnoresFromGitignore, plugins } from 'neostandard'
 
 export default function exSoInnStyleConfig(options = {}) {
-  const baseConfig = neostandard({ ignores: resolveIgnoresFromGitignore(), ...options })
+  const baseConfig = neostandard({ ignores: resolveIgnoresFromGitignore(), filesTs: [ '**/*.*ts*' ], ts: true, ...options })
 
   return [
     ...baseConfig,
@@ -26,7 +26,7 @@ export default function exSoInnStyleConfig(options = {}) {
           'error',
           {
             multiline: false,
-            minProperties: 5,
+            minProperties: 3,
             consistent: true
           }
         ],
