@@ -1,7 +1,9 @@
 import neostandard, { resolveIgnoresFromGitignore, plugins } from 'neostandard'
 
 export default function exSoInnStyleConfig(options = {}) {
-  const baseConfig = neostandard({ ignores: resolveIgnoresFromGitignore(), filesTs: [ '**/*.*ts*' ], ts: true, ...options })
+  const baseConfig = neostandard({
+    ignores: resolveIgnoresFromGitignore(), filesTs: [ '**/*.*ts*' ], ts: true, ...options
+  })
 
   return [
     ...baseConfig,
@@ -18,7 +20,6 @@ export default function exSoInnStyleConfig(options = {}) {
         '@stylistic/object-property-newline': [
           'error',
           {
-            allowMultiplePropertiesPerLine: false,
             allowAllPropertiesOnSameLine: true // allow all JSON properties on same line (do not put a key per line when reformatting
           }
         ],
