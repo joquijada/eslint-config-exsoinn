@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.5](https://github.com/joquijada/eslint-config-exsoinn/compare/v2.0.4...v2.0.5) (2025-09-23)
+
+
+### Bug Fixes
+
+* **lint-script:** update scripts to reflect eslint 9.x, update readme ([4101015](https://github.com/joquijada/eslint-config-exsoinn/commit/4101015f883e645c073c8d916d603ecab82ffeea))
+
 ## [2.0.4](https://github.com/joquijada/eslint-config-exsoinn/compare/v2.0.3...v2.0.4) (2025-09-22)
 
 
