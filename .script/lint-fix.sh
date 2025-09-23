@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-eslint -c .eslintrc.yml --no-eslintrc --fix ./
+eslint --fix
